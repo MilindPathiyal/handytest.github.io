@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Handy</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class ="quiz-container">
+    <div class="question-number">
+      <h1>Handy</h1>
+      <h3>Question <span class="question-num-value"> </span> of <span class="total-question"></span></h3>
+    </div>
+    <div class="question">
+    </div>
+    <div class="options">
+      <div id="0" class="option1" onclick="check(this)"></div>
+      <div id="1" class="option2" onclick="check(this)"></div>
+      <div id="2" class="option3" onclick="check(this)"></div>
+      <div id="3" class="option4" onclick="check(this)"></div>
+    </div>
+    <div class="button">
+      <button type="button" class="btn" onclick="next()">Next</button>
+    </div>
+    <div class="answers-tracker">
+    </div>
+  </div>
+
+  <div class ="quiz-over">
+    <div class="box">
+      <h1>Awesome!</h1>
+      <p>Here are some stats provided by CDC...</p>
+      <br>
+        <p>
+           We are Handy and we are on the mission to encouraging healthy handwashing hygiene.
+           Check out our work below...
+        </p>
+
+        <button title="Kickstarter" class="action primary tocart" onclick=" window.open('http://www.google.com', '_blank'); return false;">Handy's Kickstarter</button>
+        <button title="Website" class="action primary tocart" onclick=" window.open('http://www.apple.com', '_blank'); return false;">Handy's Website</button>
+
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
